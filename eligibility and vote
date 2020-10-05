@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main();
+int main()
 {
     int age;
     cout<<"enter the age of the user";
@@ -13,7 +13,7 @@ int main();
      }
      else
      {
-     cout<<"\nyou are not eligible for voting";
+       cout<<"\nyou are not eligible for voting";
      }
      
      int vote;
@@ -22,11 +22,11 @@ int main();
      
      if(vote>=100)
      {
-     cout<<"\ncandidate is the winner";
+       cout<<"\ncandidate is the winner";
      }
      else
      {
-     cout<<"\ncandidate is not winner;
+       cout<<"\ncandidate is not winner;
      }
-     return o;
+     return 0;
 }
