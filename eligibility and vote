@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main();
+{
+    int age;
+    cout<<"enter the age of the user";
+    cin>>age;
+    
+    if(age>=18)
+    { 
+       cout<<"\nyou are eligible for voting";
+     }
+     else
+     {
+     cout<<"\nyou are not eligible for voting";
+     }
+     
+     int vote;
+     cout<<"enter the number of votes";
+     cin>>vote;
+     
+     if(vote>=100)
+     {
+     cout<<"\ncandidate is the winner";
+     }
+     else
+     {
+     cout<<"\ncandidate is not winner;
+     }
+     return o;
+}
